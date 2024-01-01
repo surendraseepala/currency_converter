@@ -1,6 +1,7 @@
 *{
     margin: 0%;
     padding: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 body{
     display: flex;
@@ -16,8 +17,14 @@ body{
     padding:2rem;
     border-radius: .5rem;
 }
+.container h2{
+    margin: .5rem;
+    text-align: center;
+    color: #FF0800;
+
+}
 form{
-    padding: 2rem 0 1rem 0;
+    padding: .8rem 0 1rem 0;
 }
 form 
 input,
@@ -44,7 +51,7 @@ form input{
 form 
 i{
     font-size: 1.5rem;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
 
 
@@ -64,7 +71,9 @@ form img{
     width: auto;
 }
 .msg{
-    padding: 2rem 0 2rem 0;
+    padding: 1.5rem 0 1.5rem 0;
+    text-align: center;
+    margin-top: 1rem;
 }
 form button{
     background-color: #ff006e;
@@ -73,10 +82,22 @@ form button{
     font-size: 1rem;
     height: 2rem;
     cursor: pointer;
+    margin-top: .5rem;
 
 
 }
 
 form select{
     width: 2rem;
+}
+ form 
+ input {
+    margin-top: .5rem;
+}
+.to p{
+    margin-bottom: .5rem;
+}
+.from p{
+    margin-bottom: .5rem;
+
 }
